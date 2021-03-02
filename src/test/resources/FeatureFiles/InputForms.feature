@@ -5,7 +5,7 @@ Feature: Input Forms
     Given user is on home page "https://www.seleniumeasy.com/test/basic-checkbox-demo.html"
     #/https://www.seleniumeasy.com/test/
 
-  @test
+ @test
   #@smoke @sanity
   Scenario Outline: Simple Forms
     When user selects input form
@@ -17,7 +17,7 @@ Feature: Input Forms
       | msg          |
       | "My Message" |
 
-  @test
+@test
   Scenario: Checkbox Demo
     When user selects input form
     And user selects checkbox demo
