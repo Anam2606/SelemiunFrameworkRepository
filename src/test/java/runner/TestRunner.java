@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources",
+        features = "src/test/resources/test1",
         glue = {"amazon.stepDefinitions", "amazon.hooks"},
         dryRun = false,
         monochrome = true,
